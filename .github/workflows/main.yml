@@ -24,5 +24,5 @@ jobs:
           path: ./
           remote_path: /var/www/html
           remote_host: ${{ secrets.HOST }}
-          remote_user: ${{ secrets.USER }}
+          remote_user: ${{ secrets.USERNAME }}
           remote_key: ${{ secrets.KEY }}
